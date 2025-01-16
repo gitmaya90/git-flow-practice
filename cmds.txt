@@ -1,0 +1,27 @@
+Start a new release:
+
+bash
+git flow release start <release-version>
+Finish a release:
+
+bash
+git flow release finish <release-version>
+Hotfix Branches: Handle hotfixes for urgent fixes.
+
+Start a new hotfix:
+
+bash
+git flow hotfix start <hotfix-name>
+Finish a hotfix:
+
+bash
+git flow hotfix finish <hotfix-name>
+Support Branches: Manage support branches for long-term maintenance.
+
+Start a new support branch:
+
+bash
+git flow support start <support-name>
+These commands help streamline your development process by providing a clear structure for managing different types of branches. If you have any specific questions or need further details, feel free to ask!
+
+maya
